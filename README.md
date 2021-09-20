@@ -23,7 +23,7 @@ This is an android application which helps users to find blood donor in their ne
 
 ## Built With:-
 
-- [Material Design](https://material.io/) - Make beautiful products, faster. Material is a design system – backed by open-source code – that helps teams build digital experiences
+* [Material Design](https://material.io/) - Make beautiful products, faster. Material is a design system – backed by open-source code – that helps teams build digital experiences
 
 - [Google Firebase](https://firebase.google.com/) - Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
 
