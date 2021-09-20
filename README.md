@@ -28,7 +28,10 @@ The app traces user location so that the request can be shown to the donors of t
 
 #### Register as donor:--
 Users willing to donate the blood can register as a donor so that they will be shown the requests nearby them.
+
 #### OTP verification :--
+user can register through their phone number.
+
 #### Library used:--
 
 -Toasty
@@ -38,6 +41,8 @@ Users willing to donate the blood can register as a donor so that they will be s
 -shaishavgandhi:login-buttons:1.0.0
 
 -chaos.view:pinview:1.4.3
+
+-Firebase OTP verification
 
 #### Database:-
 
