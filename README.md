@@ -40,6 +40,9 @@ Users willing to donate the blood can register as a donor so that they will be s
 #### OTP verification :--
 user can register through their phone number.
 
+#### Realtime User Location:-
+App can trace user so that data can be very specific to the users locality.
+
 ## Library used:--
 
 * Toasty
@@ -51,5 +54,7 @@ user can register through their phone number.
 * chaos.view:pinview:1.4.3
 
 * Firebase OTP verification
+
+* Fused Location Provider API
 
 
