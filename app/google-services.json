@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332719994181",
+    "firebase_url": "https://find-blood-donor-6464c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "find-blood-donor-6464c",
+    "storage_bucket": "find-blood-donor-6464c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332719994181:android:fd60696cb687fc206cfa2c",
+        "android_client_info": {
+          "package_name": "com.example.findblooddonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332719994181-cmqq7mkon8svgva94280uo8ir6qdqjo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findblooddonor",
+            "certificate_hash": "71fb9f00a943894e643e0fda622031fd02ca5c39"
+          }
+        },
+        {
+          "client_id": "332719994181-db7dljfevuh3rnavclffcra11ccefoc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARlEjnLgVk1WZbTmyjbJsIQmSEGjdcP0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332719994181-db7dljfevuh3rnavclffcra11ccefoc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

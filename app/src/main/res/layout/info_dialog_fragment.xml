@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="15dp"
+        android:text="Blood For :"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_dialog_patient_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:text="Random"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:text="Contact Person :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_dialog_contact_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="7dp"
+
+        android:text="Contact Person"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <TextView
+
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Case Detail :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_dialog_additional_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:text="Random"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/info_dialog_call_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_call_24"
+        app:layout_constraintEnd_toStartOf="@+id/info_dialog_sms_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_dialog_additional_info">
+
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/info_dialog_sms_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_sms_24"
+        app:layout_constraintBottom_toBottomOf="@+id/info_dialog_call_btn"
+        app:layout_constraintEnd_toStartOf="@+id/info_dialog_share_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/info_dialog_call_btn"
+        app:layout_constraintTop_toTopOf="@+id/info_dialog_call_btn">
+
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/info_dialog_share_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_share_24"
+        app:layout_constraintBottom_toBottomOf="@+id/info_dialog_sms_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/info_dialog_sms_btn"
+        app:layout_constraintTop_toTopOf="@+id/info_dialog_sms_btn">
+
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+    <TextView
+        android:id="@+id/info_dialog_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+        android:text="9817974353"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/info_dialog_share_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/info_dialog_call_btn"
+        app:layout_constraintTop_toBottomOf="@+id/info_dialog_sms_btn"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

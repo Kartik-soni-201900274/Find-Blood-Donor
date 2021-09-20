@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"></item>
+    <item
+        android:id="@+id/view_req"
+        android:title="View Request's"
+        android:icon="@drawable/ic_baseline_notification_important_24"></item>
+    <item
+        android:id="@+id/new_req"
+        android:title="New Request"
+        android:icon="@drawable/ic_baseline_add_location_24"></item>
+</menu>

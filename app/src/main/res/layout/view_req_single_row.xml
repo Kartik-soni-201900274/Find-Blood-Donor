@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/VR_singlerow_cardview"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:layout_marginHorizontal="9dp"
+
+
+    app:cardCornerRadius="10dp"
+
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8FF">
+
+
+        <TextView
+            android:id="@+id/VR_single_row_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021-09-01 05.17 pm"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView21"
+            app:layout_constraintStart_toStartOf="@+id/VR_single_row_patients_name"
+            app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="403dp"
+            android:layout_height="39dp"
+            android:background="@color/mycolor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></View>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="6dp"
+            android:text="Hospital:"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView17"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/VR_textviewheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="NEEDED :"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Patient Name :"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="6dp"
+            android:text="Post Date : "
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/VR_single_row_blood_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="AB+"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/VR_textviewheader"
+            app:layout_constraintStart_toEndOf="@+id/VR_textviewheader"
+            app:layout_constraintTop_toTopOf="@+id/VR_textviewheader" />
+
+        <TextView
+            android:id="@+id/VR_single_row_postdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Jul 2001 12:08 pm"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="@+id/VR_single_row_patients_name"
+            app:layout_constraintTop_toTopOf="@+id/textView18"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/VR_single_row_req_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2021-09-01 05.17 pm"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/VRsingle_row_date2"
+            app:layout_constraintStart_toStartOf="@+id/VR_single_row_unit"
+            app:layout_constraintTop_toTopOf="@+id/VRsingle_row_date2" />
+
+        <TextView
+            android:id="@+id/VR_single_row_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="2021-09-01 05.17 pm"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/VRsingle_row_date"
+            app:layout_constraintStart_toStartOf="@+id/VR_single_row_hospital"
+            app:layout_constraintTop_toTopOf="@+id/VRsingle_row_date" />
+
+        <TextView
+            android:id="@+id/VR_single_row_patients_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="Kartik soni"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView17"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+        <TextView
+            android:id="@+id/VRsingle_row_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required Unit :"
+    android:layout_marginTop="6dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/VRsingle_row_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="6dp"
+            android:text="Required Date :"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/VRsingle_row_date"
+            app:layout_constraintTop_toBottomOf="@+id/VRsingle_row_date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units"
+            android:textSize="17sp"
+            android:layout_marginLeft="6dp"
+            app:layout_constraintBottom_toBottomOf="@+id/VR_single_row_unit"
+            app:layout_constraintStart_toEndOf="@+id/VR_single_row_unit"
+            app:layout_constraintTop_toTopOf="@+id/VR_single_row_unit"></TextView>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/VR_info_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_baseline_info_24"
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view"></androidx.appcompat.widget.AppCompatImageButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
