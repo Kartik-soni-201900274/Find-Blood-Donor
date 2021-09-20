@@ -20,7 +20,7 @@ This is an android application which helps users to find blood donor in their ne
 <img src="https://user-images.githubusercontent.com/91082323/134048216-2b1b95c6-f687-41ad-8012-467210a0f487.jpg" width="170" height="350">
 </p>
 
-### Features:-
+## Features:-
 
 #### Add Request:--
 Users can add a request for a specific blood type and the donors using the app can see the request.
@@ -28,7 +28,7 @@ The app traces user location so that the request can be shown to the donors of t
 
 #### Register as donor:--
 Users willing to donate the blood can register as a donor so that they will be shown the requests nearby them.
-
+#### OTP verification :--
 #### Library used:--
 
 -Toasty
