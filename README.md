@@ -36,7 +36,7 @@ Users willing to donate the blood can register as a donor so that they will be s
 #### OTP verification :--
 user can register through their phone number.
 
-#### Library used:--
+### Library used:--
 
 -Toasty
 
