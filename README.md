@@ -13,11 +13,9 @@ This is an android application which helps users to find blood donor in their ne
 <img src="https://user-images.githubusercontent.com/91082323/134048197-49384eaf-fb33-4c78-8df8-46604030faa4.jpg" width="170" height="350">
 <img src="https://user-images.githubusercontent.com/91082323/134048201-780a53b7-9969-428c-8770-d2491126712a.jpg" width="170" height="350">
 <img src="https://user-images.githubusercontent.com/91082323/134048202-755e8f1c-3193-41bc-872e-9bbfd52ddcb3.jpg" width="170" height="350">
-<img src="https://user-images.githubusercontent.com/91082323/134048206-b91b981a-f767-4d59-a6d3-25f813dcedce.jpg" width="170" height="350">
 <img src="https://user-images.githubusercontent.com/91082323/134048210-06fdf782-6a0e-439f-9048-088702b634dc.jpg" width="170" height="350">
 <img src="https://user-images.githubusercontent.com/91082323/134048212-d2545388-ed5b-4ad7-b54b-6b1898773636.jpg" width="170" height="350">
 <img src="https://user-images.githubusercontent.com/91082323/134048214-92714e1c-bada-48c0-9125-d4d92faaf89f.jpg" width="170" height="350">
-<img src="https://user-images.githubusercontent.com/91082323/134048216-2b1b95c6-f687-41ad-8012-467210a0f487.jpg" width="170" height="350">
 </p>
 
 ## Built With:-
