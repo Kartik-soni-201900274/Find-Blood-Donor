@@ -2,6 +2,8 @@
 # Find Blood Donor
 
 This is an android application which helps users to find blood donor in their nearby locality.
+### Screenshots:-
+https://github.com/Kartik-soni-201900274/First-Blood-Donor/tree/master/Find%20Blood%20DOnor%20ss
 
 ### Features:-
 
