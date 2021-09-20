@@ -3,7 +3,7 @@
 
 This is an android application which helps users to find blood donor in their nearby locality.
 ### Screenshots:-
-![Screenshot_20210920_202331]<img src="https://user-images.githubusercontent.com/91082323/134048182-946e254e-f88d-40c5-bc85-d0029ef90695.jpg" width="200" height="650">
+![Screenshot_20210920_202331]<img src="https://user-images.githubusercontent.com/91082323/134048182-946e254e-f88d-40c5-bc85-d0029ef90695.jpg" width="200" height="700">
 ![Screenshot_20210920_202346]<img src="https://user-images.githubusercontent.com/91082323/134048188-a9f6ca12-bb2c-4445-b573-e215fe265daf.jpg" width="400" height="790">
 ![Screenshot_20210920_203646]<img src="https://user-images.githubusercontent.com/91082323/134048189-8da779ae-3ee2-452a-8071-634ff4c98167.jpg" width="400" height="790">
 ![Screenshot_20210920_205541]<img src="https://user-images.githubusercontent.com/91082323/134048190-37d27946-8c43-4ece-ae3c-e8cac2183363.jpg" width="400" height="790">
