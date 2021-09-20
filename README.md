@@ -20,6 +20,12 @@ This is an android application which helps users to find blood donor in their ne
 <img src="https://user-images.githubusercontent.com/91082323/134048216-2b1b95c6-f687-41ad-8012-467210a0f487.jpg" width="170" height="350">
 </p>
 
+## Built With:-
+
+- [Material Design](https://material.io/) - Make beautiful products, faster. Material is a design system – backed by open-source code – that helps teams build digital experiences
+
+- [Google Firebase](https://firebase.google.com/) - Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
+
 ## Features:-
 
 #### Add Request:--
@@ -44,6 +50,4 @@ user can register through their phone number.
 
 -Firebase OTP verification
 
-#### Database:-
 
-- [Google Firebase](https://firebase.google.com/) - Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
