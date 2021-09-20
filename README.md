@@ -9,9 +9,10 @@ This is an android application which helps users to find blood donor in their ne
 Users can add a request for a specific blood type and the donors using the app can see the request.
 The app traces user location so that the request can be shown to the donors of that particular location.
 
-#### Register as donor:--Users willing to donate the blood can register as a donor so that they will be shown the requests nearby them.
+#### Register as donor:--
+Users willing to donate the blood can register as a donor so that they will be shown the requests nearby them.
 
-####Library used:--
+#### Library used:--
 
 -Toasty
 
@@ -21,6 +22,6 @@ The app traces user location so that the request can be shown to the donors of t
 
 -chaos.view:pinview:1.4.3
 
-####Database:-
+#### Database:-
 
 Firebase Realtime Database
