@@ -25,9 +25,9 @@ This is an android application which helps users to find blood donor in their ne
 
 * [Material Design](https://material.io/) - Make beautiful products, faster. Material is a design system – backed by open-source code – that helps teams build digital experiences
 
-- [Google Firebase](https://firebase.google.com/) - Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
+* [Google Firebase](https://firebase.google.com/) - Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users.
 
-- [Java ](https://www.java.com/en/)-Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+* [Java ](https://www.java.com/en/)-Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
 ## Features:-
 
 #### Add Request:--
@@ -42,14 +42,14 @@ user can register through their phone number.
 
 ## Library used:--
 
--Toasty
+* Toasty
 
--de.hdodenhof:circleimageview:3.1.0
+* de.hdodenhof:circleimageview:3.1.0
 
--shaishavgandhi:login-buttons:1.0.0
+* shaishavgandhi:login-buttons:1.0.0
 
--chaos.view:pinview:1.4.3
+* chaos.view:pinview:1.4.3
 
--Firebase OTP verification
+* Firebase OTP verification
 
 
