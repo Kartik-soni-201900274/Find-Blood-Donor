@@ -1,7 +1,7 @@
 
 # Find Blood Donor
 
-###This is an android application which helps users to find blood donor's in their nearby locality.
+### This is an android application which helps users to find blood donor's in their nearby locality.
 
 ## Why did you made this?
 ### My project "Find Blood Donor" was built as per requirements of my community to help the people in need.I am glad as this project will be focusing in a socio-community level. As seen in different places and hosptals that many people remain in a pressure and in a obstacle during their treatment and surgery inorder to find blood which is required urgent. Within a certain perioud of time it is difficult to find blood as there are many examples that many patients loose their lives due to unavailability of blood in the required time.
