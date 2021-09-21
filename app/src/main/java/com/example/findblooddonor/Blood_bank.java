@@ -167,7 +167,7 @@ public class Blood_bank extends Fragment {
 
     public void getfirebase_data()
     {
-        Toasty.success(getActivity(),"fire").show();
+
         Query query = FirebaseDatabase.getInstance()
                 .getReference()
                 .child("Blood Banks").orderByChild("name");
