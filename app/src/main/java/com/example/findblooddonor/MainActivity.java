@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements home.FragmentClic
     final Fragment fragment_register_Donor = new Register_Donor();
     final Fragment fragment_view_req = new view_req();
     final Fragment fragment_my_req = new MyReq();
+    final Fragment fragment_bloodbank = new Blood_bank();
     Fragment fragment_all_donors_with_Arg;
     Fragment fragment_all_donors = new view_donors("", "");
     final FragmentManager fm = getSupportFragmentManager();
@@ -259,6 +260,7 @@ public class MainActivity extends AppCompatActivity implements home.FragmentClic
             fm.beginTransaction().add(R.id.main_container, fragment_all_donors, "2").hide(fragment_all_donors).commit();
             fm.beginTransaction().add(R.id.main_container, fragment_my_req, "my_req").hide(fragment_my_req).commit();
             fm.beginTransaction().add(R.id.main_container, fragment_view_req, "vieq_req").hide(fragment_view_req).commit();
+            fm.beginTransaction().add(R.id.main_container, fragment_bloodbank, "blood_bank").hide(fragment_bloodbank).commit();
 
         }
 
@@ -305,6 +307,12 @@ public class MainActivity extends AppCompatActivity implements home.FragmentClic
 
                     } else if (item.getItemId() == R.id.drawer_view_req) {
                         fm.beginTransaction().hide(active).show(fragment_view_req).commit();
+                        active=fragment_view_req;
+                        closeDrawer();
+                        return true;
+                    } else if (item.getItemId() == R.id.drawer_bload_bank) {
+                        fm.beginTransaction().hide(active).show(fragment_bloodbank).commit();
+                        active=fragment_bloodbank;
                         closeDrawer();
                         return true;
                     } else if (item.getItemId() == R.id.drawer_new_req) {

@@ -5,6 +5,10 @@
             android:id="@+id/drawer_home"
             android:icon="@drawable/ic_baseline_home_24"
             android:title="Home"></item>
+        <item
+            android:id="@+id/drawer_bload_bank"
+            android:icon="@drawable/ic_baseline_account_balance_24"
+            android:title="Blood Banks"></item>
 
 
     </group>
