@@ -4,9 +4,11 @@
 ### This is an android application which helps users to find blood donor's in their nearby locality.
 
 ## Why did you made this?
-### My project "Find Blood Donor" was built as per requirements of my community to help the people in need.I am glad as this project will be focusing in a socio-community level. As seen in different places and hosptals that many people remain in a pressure and in a obstacle during their treatment and surgery inorder to find blood which is required urgent. Within a certain perioud of time it is difficult to find blood as there are many examples that many patients loose their lives due to unavailability of blood in the required time.
-### Also there are different organizations,NGO's,clubs like Red cross, lions club which helps to provide blood to the patient's but these NGO's suffer difficulty finding registered donors and also of required blood type due to which the donor's cant reach upto the patients in time.
-### Therefore, my app keeps data of all the donors in different plsce with their respective data and also the people in need of blood can directly request for blood, due to which all donors and seekers can contact each other directly eliminating the involvment of various organizations and procedures which helps patients to get blood inside the required time frame.
+### My project "Find a Blood Donor" was built as per the requirements of my community to help the people in need. I am glad as this project will be focusing on a socio-community level. As seen in different places and hospitals, many people remain under pressure and face obstacles during their treatment and surgery in order to find the blood that is required urgently. Within a certain period of time, it is difficult to find blood, as there are many examples that show that many patients lose their lives due to unavailability of blood at the required time.
+
+### Also, there are different organizations, NGO's, and clubs like the Red Cross and the Lions Club which help to provide blood to patients, but these NGO's suffer difficulty finding registered donors and also the required blood type due to which the donors' can not reach the patients in time.
+
+### Therefore, my app keeps data of all the donors in different places with their respective data, and also, people in need of blood can directly request blood due to the fact that all donors and seekers can contact each other directly, eliminating the involvement of various organizations and procedures, which help patients get blood within the required time frame.
 ### Screenshots:-
 <p align="center">
 
